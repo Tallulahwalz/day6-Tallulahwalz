@@ -1,6 +1,11 @@
 # File name: warmupDay6.py
-print ("What is my name?")
-myname = "tallulah"
-guess = ("Guess my name")
-while guess != myname:
-    guess = input("that is not my name")
+print ('Guess my number')
+number = 0
+i = 0
+while number <10:
+    print (number)
+    i = i +1
+for i in range (7):
+    number = number +1
+    print (number)
+print ('You Got It!')
